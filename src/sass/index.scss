@@ -1,2 +1,18 @@
+// modern-normalize
 @import './common';
-@import './example';
+//Fonts - шрифти
+@import './fonts';
+// Зміні
+@import './variables';
+// Основні
+@import './base';
+
+@import './home-page/header';
+@import './home-page/sidebar-home';
+@import './home-page/bestsellers';
+@import './home-page/footer';
+
+@import './shopping-list/sidebar-shop';
+
+@import './modal/book-modal';
+@import './modal/registration';
